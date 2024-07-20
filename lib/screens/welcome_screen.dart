@@ -62,7 +62,6 @@ class WelcomeScreen extends StatelessWidget {
                       text: 'Sign in',
                       style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
                       recognizer: TapGestureRecognizer()..onTap = () {
-                        // Handle sign in navigation
                       },
                     ),
                   ],
